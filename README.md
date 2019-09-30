@@ -22,9 +22,7 @@
 3. python格式化日期时间输出
 ```
 
-- 实现：
-
-python实现：[code](./python_excel/rw_excel.py) 
+- 实现：[code](./python_excel/rw_excel.py) 
 
 ```
 1. 函数compared_data(readfile, writefile)：
@@ -36,5 +34,3 @@ python实现：[code](./python_excel/rw_excel.py)
 	  输入：f2_mid.xlsx
 	  输出：new_f2.xlsx
 ```
-​		
-
