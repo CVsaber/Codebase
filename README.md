@@ -18,7 +18,21 @@
 
 ```
 1. 实现python对xlsx的读写操作，数据量18万
-
-2. 
+2. 用到的库有：xlrd,xlutils,openpyxl,datetime
+3. python格式化日期时间输出
 ```
+
+- 实现：
+
+```
+1. 函数compared_data(readfile, writefile)：
+      功能：完成对文件f1和f2的读取工作,并将f1的时间添加到f2中，保存到新的文件f2_mid.xlsx中
+      输入：readfile:f1; writefile:f2
+      输出：f2_mid
+2. 函数add_time(filename):
+	  功能：将f2中的空白时间补充完整
+	  输入：f2_mid.xlsx
+	  输出：new_f2.xlsx
+```
+​		[code](./python_excel/rw_excel.py) 
 

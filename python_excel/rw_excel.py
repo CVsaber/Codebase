@@ -10,7 +10,7 @@
 # DESCRIPTION: 读写xlsx,格式化日期时间输出
 
 import datetime
-import os
+import os,sys
 
 import numpy as np
 import xlrd
@@ -19,6 +19,8 @@ from xlutils.copy import copy
 
 import openpyxl
 
+# windows下改变根路径到执行程序路径下
+os.chdir(sys.path[0])
 
 def compared_data(readfile, writefile):
     '''
@@ -107,5 +109,5 @@ def add_time(filename):
     workbook.save('./new_f2.xlsx')  # 保存新的excel,最终结果
 
 
-mid_file = compared_data('.\\f1.xlsx', '.\\f2.xlsx')
+mid_file = compared_data('./f1.xlsx', './f2.xlsx')
 add_time(mid_file)
