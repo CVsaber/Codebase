@@ -24,6 +24,8 @@
 
 - 实现：
 
+python实现：[code](./python_excel/rw_excel.py) 
+
 ```
 1. 函数compared_data(readfile, writefile)：
       功能：完成对文件f1和f2的读取工作,并将f1的时间添加到f2中，保存到新的文件f2_mid.xlsx中
@@ -34,5 +36,5 @@
 	  输入：f2_mid.xlsx
 	  输出：new_f2.xlsx
 ```
-​		[code](./python_excel/rw_excel.py) 
+​		
 
